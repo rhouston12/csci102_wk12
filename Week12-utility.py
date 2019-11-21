@@ -39,5 +39,17 @@ def Intersection(list1, list2):
         x += 1
     PrintOutput(list4)
 
-
+def NotIn(list1, list2):
+    x = 0
+    list3 = list1 + list2
+    list4 = []
+    list5 = []
+    for i in list3:
+        if list3.count(list3[x]) == 1:
+            list4.append(list3[x])
+        x += 1
+    for i in list4:
+        if i in list1:
+            list5.append(i)
+    PrintOutput(list5)
             
