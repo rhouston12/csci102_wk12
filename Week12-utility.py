@@ -24,7 +24,7 @@ def ScoreFinder(list1, list2, stringy):
             PrintOutput(stringy)
             PrintOutput(list2[x])
         x += 1
-    
-            
 
-    
+def Union(list1, list2):
+    list3 = list1 + list2
+    PrintOutput(list3)
