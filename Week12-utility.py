@@ -14,4 +14,7 @@ def UpdateString(string1, string2, n):
     string1.replace(string1, string2, n)
     PrintOutput(string1)
 
+def FindWordCount(list1, stringx):
+    PrintOutput(list1.count(stringx))
 
+    
