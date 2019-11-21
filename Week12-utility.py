@@ -17,4 +17,14 @@ def UpdateString(string1, string2, n):
 def FindWordCount(list1, stringx):
     PrintOutput(list1.count(stringx))
 
+def ScoreFinder(list1, list2, stringy):
+    x = 0
+    for i in list1:
+        if i == stringy:
+            PrintOutput(stringy)
+            PrintOutput(list2[x])
+        x += 1
+    
+            
+
     
