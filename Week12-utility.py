@@ -4,3 +4,8 @@
 
 def PrintOutput(word):
     print('OUTPUT', word)
+
+def LoadFile(filename):
+    with open(filename) as file1:
+        file1 = file1.read()
+        PrintOutput(file1)
