@@ -28,3 +28,16 @@ def ScoreFinder(list1, list2, stringy):
 def Union(list1, list2):
     list3 = list1 + list2
     PrintOutput(list3)
+
+def Intersection(list1, list2):
+    x = 0
+    list3 = list1 + list2
+    list4 = []
+    for i in list3:
+        if list3.count(list3[x]) > 1:
+            list4.append(list3[x])
+        x += 1
+    PrintOutput(list4)
+
+
+            
